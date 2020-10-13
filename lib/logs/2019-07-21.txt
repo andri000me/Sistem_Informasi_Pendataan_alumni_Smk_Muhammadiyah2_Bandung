@@ -1,0 +1,15 @@
+Time : 16:53:54
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' a.id_anggota=b.id_anggota  ORDER BY a.nama_lengkap ASC' at line 1
+Raw SQL : SELECT * FROM aluni_v_anggota_lengkap a, aluni_anggota_akademik b  WHERE aktif = 'ya', a.id_anggota=b.id_anggota  ORDER BY a.nama_lengkap ASC
+
+Time : 16:53:51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' a.id_anggota=b.id_anggota  ORDER BY a.nama_lengkap ASC' at line 1
+Raw SQL : SELECT * FROM aluni_v_anggota_lengkap a, aluni_anggota_akademik b  WHERE aktif = 'ya', a.id_anggota=b.id_anggota  ORDER BY a.nama_lengkap ASC
+
+Time : 15:46:21
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC' at line 1
+Raw SQL : SELECT * FROM aluni_program_keahlian  WHERE pk ASC
+
+Time : 15:45:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC' at line 1
+Raw SQL : SELECT * FROM aluni_program_keahlian  WHERE pk ASC

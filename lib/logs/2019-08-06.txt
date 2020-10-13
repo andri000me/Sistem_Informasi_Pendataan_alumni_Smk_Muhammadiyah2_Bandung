@@ -1,0 +1,39 @@
+Time : 15:57:02
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC' at line 1
+Raw SQL : SELECT kode_pk, deskripsi, pk FROM aluni_program_keahlian  WHERE deskripsi ASC
+
+Time : 15:54:47
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC' at line 1
+Raw SQL : SELECT kode_pk, deskripsi, pk FROM aluni_program_keahlian  WHERE deskripsi ASC
+
+Time : 15:53:37
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC' at line 1
+Raw SQL : SELECT kode_pk, deskripsi, pk FROM aluni_program_keahlian  WHERE deskripsi ASC
+
+Time : 15:53:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC' at line 1
+Raw SQL : SELECT kode_pk, deskripsi, pk FROM aluni_program_keahlian  WHERE deskripsi ASC
+
+Time : 15:24:58
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'des' in 'field list'
+Raw SQL : UPDATE aluni_program_keahlian SET pk = 'ADM', des = '4' WHERE kode_pk = ''
+
+Time : 15:12:52
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.nama_lengkap' in 'order clause'
+Raw SQL : SELECT * FROM aluni_program_keahlian  WHERE kode_pk = '4'  ORDER BY a.nama_lengkap ASC
+
+Time : 15:12:49
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.nama_lengkap' in 'order clause'
+Raw SQL : SELECT * FROM aluni_program_keahlian  WHERE kode_pk = '4'  ORDER BY a.nama_lengkap ASC
+
+Time : 14:29:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''laki-laki' at line 1
+Raw SQL : SELECT id_anggota FROM aluni_data_view  WHERE kode_pk = 'ADM' AND aktif = 'ya' AND jenis_kelamin = 'laki-laki
+
+Time : 14:17:13
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'
+Raw SQL : INSERT INTO aluni_pengguna_status_password VALUES ('3', 'asdfasdasd', 'a1bf0233', 'belum diubah', 'admin', NOW(), 'admin', NOW())
+
+Time : 13:52:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nis' in 'where clause'
+Raw SQL : SELECT * FROM aluni_data_view WHERE nis LIKE '%12%'

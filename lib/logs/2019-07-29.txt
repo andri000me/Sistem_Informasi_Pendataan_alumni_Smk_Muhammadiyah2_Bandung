@@ -1,0 +1,35 @@
+Time : 06:54:00
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'angkatan' in where clause is ambiguous
+Raw SQL : SELECT a.id_anggota, a.nama_lengkap, a.nama_panggilan, a.jenis_kelamin, a.tempat_lahir, a.tanggal_lahir, a.agama, a.foto, a.provinsi, a.kota, a.alamat, a.aktif, a.angkatan AS angkatan, a.tahun_masuk AS tahun_masuk, a.tahun_keluar AS tahun_keluar, a.kelas_terakhir, a.catatan, a.nama_pasangan, a.nama_anak, a.nama_ayah, a.nama_ibu, a.nama_wali, a.provinsi_orang_tua, a.kota_orang_tua, a.alamat_orang_tua, a.no_rumah, a.no_handphone, a.no_handphone2, a.pin_blackberry, a.alamat_email, a.alamat_website, a.facebook, a.twitter, b.kode_pk AS kode_pk FROM aluni_v_anggota_lengkap a, aluni_anggota_akademik b WHERE a.id_anggota=b.id_anggota AND angkatan LIKE '%13%'
+
+Time : 06:51:29
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'tahun_masuk' in where clause is ambiguous
+Raw SQL : SELECT a.id_anggota, a.nama_lengkap, a.nama_panggilan, a.jenis_kelamin, a.tempat_lahir, a.tanggal_lahir, a.agama, a.foto, a.provinsi, a.kota, a.alamat, a.aktif, a.angkatan, a.tahun_masuk, a.tahun_keluar, a.kelas_terakhir, a.catatan, a.nama_pasangan, a.nama_anak, a.nama_ayah, a.nama_ibu, a.nama_wali, a.provinsi_orang_tua, a.kota_orang_tua, a.alamat_orang_tua, a.no_rumah, a.no_handphone, a.no_handphone2, a.pin_blackberry, a.alamat_email, a.alamat_website, a.facebook, a.twitter, b.kode_pk FROM aluni_v_anggota_lengkap a, aluni_anggota_akademik b WHERE a.id_anggota=b.id_anggota AND tahun_masuk LIKE '%1343%'
+
+Time : 06:49:20
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'angkatan' in where clause is ambiguous
+Raw SQL : SELECT a.id_anggota, a.nama_lengkap, a.nama_panggilan, a.jenis_kelamin, a.tempat_lahir, a.tanggal_lahir, a.agama, a.foto, a.provinsi, a.kota, a.alamat, a.aktif, a.angkatan, a.tahun_masuk, a.tahun_keluar, a.kelas_terakhir, a.catatan, a.nama_pasangan, a.nama_anak, a.nama_ayah, a.nama_ibu, a.nama_wali, a.provinsi_orang_tua, a.kota_orang_tua, a.alamat_orang_tua, a.no_rumah, a.no_handphone, a.no_handphone2, a.pin_blackberry, a.alamat_email, a.alamat_website, a.facebook, a.twitter, b.kode_pk FROM aluni_v_anggota_lengkap a, aluni_anggota_akademik b WHERE a.id_anggota=b.id_anggota AND angkatan LIKE '%13%'
+
+Time : 06:48:11
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'angkatan' in where clause is ambiguous
+Raw SQL : SELECT a.id_anggota, a.nama_lengkap, a.nama_panggilan, a.jenis_kelamin, a.tempat_lahir, a.tanggal_lahir, a.agama, a.foto, a.provinsi, a.kota, a.alamat, a.aktif, a.angkatan, a.tahun_masuk, a.tahun_keluar, a.kelas_terakhir, a.catatan, a.nama_pasangan, a.nama_anak, a.nama_ayah, a.nama_ibu, a.nama_wali, a.provinsi_orang_tua, a.kota_orang_tua, a.alamat_orang_tua, a.no_rumah, a.no_handphone, a.no_handphone2, a.pin_blackberry, a.alamat_email, a.alamat_website, a.facebook, a.twitter, b.kode_pk FROM aluni_v_anggota_lengkap a, aluni_anggota_akademik b WHERE a.id_anggota=b.id_anggota AND nama_lengkap LIKE '%RPL%'  OR angkatan LIKE '%RPL%'  OR provinsi LIKE '%RPL%'  OR kota LIKE '%RPL%'  OR tahun_masuk LIKE '%RPL%'  OR tahun_keluar LIKE '%RPL%'  OR kode_pk LIKE '%RPL%'
+
+Time : 06:48:00
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'angkatan' in where clause is ambiguous
+Raw SQL : SELECT a.id_anggota, a.nama_lengkap, a.nama_panggilan, a.jenis_kelamin, a.tempat_lahir, a.tanggal_lahir, a.agama, a.foto, a.provinsi, a.kota, a.alamat, a.aktif, a.angkatan, a.tahun_masuk, a.tahun_keluar, a.kelas_terakhir, a.catatan, a.nama_pasangan, a.nama_anak, a.nama_ayah, a.nama_ibu, a.nama_wali, a.provinsi_orang_tua, a.kota_orang_tua, a.alamat_orang_tua, a.no_rumah, a.no_handphone, a.no_handphone2, a.pin_blackberry, a.alamat_email, a.alamat_website, a.facebook, a.twitter, b.kode_pk FROM aluni_v_anggota_lengkap a, aluni_anggota_akademik b WHERE a.id_anggota=b.id_anggota AND nama_lengkap LIKE '%RPL%'  OR angkatan LIKE '%RPL%'  OR provinsi LIKE '%RPL%'  OR kota LIKE '%RPL%'  OR tahun_masuk LIKE '%RPL%'  OR tahun_keluar LIKE '%RPL%'  OR program_studi LIKE '%RPL%'
+
+Time : 06:37:49
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'angkatan' in where clause is ambiguous
+Raw SQL : SELECT * FROM aluni_v_anggota_lengkap a, aluni_anggota_akademik b WHERE a.id_anggota=b.id_anggota AND nama_lengkap LIKE '%RPL%'  OR angkatan LIKE '%RPL%'  OR provinsi LIKE '%RPL%'  OR kota LIKE '%RPL%'  OR tahun_masuk LIKE '%RPL%'  OR tahun_keluar LIKE '%RPL%'  OR program_studi LIKE '%RPL%'
+
+Time : 06:36:15
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'program_studi' in 'where clause'
+Raw SQL : SELECT * FROM aluni_v_anggota_lengkap WHERE nama_lengkap LIKE '%RPL%'  OR angkatan LIKE '%RPL%'  OR provinsi LIKE '%RPL%'  OR kota LIKE '%RPL%'  OR tahun_masuk LIKE '%RPL%'  OR tahun_keluar LIKE '%RPL%'  OR program_studi LIKE '%RPL%'
+
+Time : 06:01:22
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'posisi' in 'field list'
+Raw SQL : UPDATE aluni_pengguna SET posisi = 'er', alamat_perusahaan='sdf', nama_ptn='sdfsdf', program_std='sdf', jurusan='sdf', nama_usaha='sdf', jenis_usaha='sdf', alamat_usaha='sdf'  WHERE id_anggota = '3'
+
+Time : 06:00:38
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'posisi' in 'field list'
+Raw SQL : UPDATE aluni_pengguna SET posisi = 'er', alamat_perusahaan='sdf', nama_ptn='sdfsdf', program_std='sdf', jurusan='sdf', nama_usaha='sdf', jenis_usaha='sdf', alamat_usaha='sdf'  WHERE id_anggota = '3'

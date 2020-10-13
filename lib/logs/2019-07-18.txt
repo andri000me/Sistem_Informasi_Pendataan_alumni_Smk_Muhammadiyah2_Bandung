@@ -1,0 +1,2 @@
+Time : 13:20:21
+SQLSTATE[HY000] [1049] Unknown database 'aluni_v2'
